@@ -18,4 +18,9 @@ for template in mcp_scripts/*.template; do
   echo "Created $shfile from $template"
 done
 
+# Install pre-commit hook
+echo "Setting up git pre-commit hook..."
+cp mcp_scripts/pre-commit.hook.template .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+
 echo "Setup complete."
