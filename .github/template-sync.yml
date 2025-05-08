@@ -9,3 +9,8 @@ files:
   - "!.github/dependabot.yml"
   - "!.github/workflows/sync.yaml"
   - "!README.md"
+  - "!.roo/"
+  - "!.roomodes"
+  - "!.taskmasterconfig"
+  - "!.windsurfrules"
+  - "!scripts/"
