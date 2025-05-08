@@ -3,7 +3,7 @@
       "github": {
         "command": "bash",
         "args": [
-          "./scripts/github-mcp.sh"
+          "./mcp_scripts/github-mcp.sh"
         ]
       }
     }
