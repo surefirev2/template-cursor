@@ -91,3 +91,9 @@ cp mcp_scripts/pre-commit.hook.template .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 
 echo "Setup complete."
+echo
+
+echo "Next steps:"
+echo "  1. Run: npm install"
+echo "  2. Then initialize Task Master: npx task-master init"
+echo
