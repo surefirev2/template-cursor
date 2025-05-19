@@ -1,5 +1,6 @@
 additional:
-  - "template-1-*"
+  - "invoice-x12-converter"
+  - "nuxt-ucda"
 
 files:
   - "!.gitignore"
@@ -14,3 +15,8 @@ files:
   - "!.taskmasterconfig"
   - "!.windsurfrules"
   - "!scripts/"
+  - "!package.json"
+  - "!package-lock.json"
+  - "!mcp_scripts/pre-commit.hook.template"
+  - "!.github/workflows/pre-commit.yaml"
+  - "!.github/workflows/dependabot-automerge.yaml"
