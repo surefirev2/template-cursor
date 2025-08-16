@@ -20,3 +20,4 @@ files:
   - "!mcp_scripts/pre-commit.hook.template"
   - "!.github/workflows/pre-commit.yaml"
   - "!.github/workflows/dependabot-automerge.yaml"
+  - "!env.template"
